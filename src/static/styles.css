@@ -2,6 +2,15 @@ body{
     margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
+    margin: 0%;
+    background-color: #5177ff;
+}
+
+header{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #119DA4;
+    border-bottom: solid white;
 }
 
 #link_a{
@@ -11,16 +20,17 @@ body{
 
 .a1{
     margin-top: 5%;
+    margin-left: 10%;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     color: black;
-    font-size: 1.2vw;
+    font-size: 1.35vw;
     text-decoration: double;
     text-align: left;
 }
 
 #foto{
     float: left;    
-    margin: 0 15px 0 0;
+    margin: 0 3vw 0 0;
 }
 
 a{
