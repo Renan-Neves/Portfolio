@@ -13,14 +13,10 @@ header{
     border-bottom: solid white;
 }
 
-#link_a{
-    float: right;
-    margin-top: 5%;
-}
-
-.a1{
+.texto{
     margin-top: 5%;
     margin-left: 10%;
+    margin-right: 10%;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     color: black;
     font-size: 1.35vw;
@@ -33,7 +29,14 @@ header{
     margin: 0 3vw 0 0;
 }
 
-a{
+.a1{
     text-decoration: none;
     color: white;
+    float: right;
+    margin-top: 5%;
+}
+
+.a2{
+    text-decoration: none;
+    color: black;
 }

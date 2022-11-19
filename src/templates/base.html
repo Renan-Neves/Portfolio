@@ -1,19 +1,19 @@
 <htmL>
     <head>
-        {% block head %}
-        <title>Home Page</title>
+        <title>base</title>
         <link rel="stylesheet" href="static/styles.css">
-        {% endblock %}
     </head>
     <body>
-        {% block nav %}
         <header>
-            <img src="static/imgs/terraria.png" alt="terraria." height=125 width=100>
-            <a id="link_a" a href="/outros">Mais</a><span id="link_a">┃</span>
-            <a id="link_a" a href="/portifolio">Projetos</a><span id="link_a">┃</span>
-            <a id="link_a" a href="/home">Home</a>
+            <img src="static/imgs/terraria.png" alt="terraria." height=125 wclassth=100>
+            <a class="a1" a href="/outros">Mais</a><span class="a1">┃</span>
+            <a class="a1" a href="/portifolio">Projetos</a><span class="a1">┃</span>
+            <a class="a1" a href="/home">Home</a>
         </header>
+        {% block mais %}
         {% endblock %}
-        {% block corpo %}
+        {% block home %}
+        {% endblock %}
+        {% block port %}
         {% endblock %}
     </body>

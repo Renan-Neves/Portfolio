@@ -1,24 +1,17 @@
 <htmL>
-    <head>
-        <title>Home Page</title>
-        <link rel="stylesheet" href="static/styles.css">
-    </head>
-    <body>
-        <header>
-            <img src="static/imgs/terraria.png" alt="terraria." height=125 width=100>
-            <a id="link_a" a href="/outros">Mais</a><span id="link_a">┃</span>
-            <a id="link_a" a href="/portifolio">Projetos</a><span id="link_a">┃</span>
-            <a id="link_a" a href="/home">Home</a>
-        </header>
-        <div class="a1">
+    {% extends "base.html" %}
+    {% block home %}
+        <div class="texto">
             <h2>Sobre mim:</h2>
             <p>
                 <img src="static/imgs/foto.jpeg" alt="foto" width="165vw" height="215vh" id="foto">
                 <ul>
                     <li><b>Nome:</b> Renan Souza Neves</li>
+                    <li><b>Técnico:</b> Desenvolvimento de sistemas</li>
                     <li><b>Aniversário:</b> 01/01/2004</li>
+                    <li><b>Github: </b><a link id="a2" a href="https://github.com/Renan-Neves">Renan-Neves</a></li>
                 </ul>
             </p>
         </div>
-    </body>
+    {% endblock %}
 </htmL>
