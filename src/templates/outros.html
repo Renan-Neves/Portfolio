@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
+    {% extends "base.html" %}
     <head>
-        <title>Home Page</title>
-        <link rel="stylesheet" href="static/styles.css">
+        {% block head %}
+        {% endblock %}
     </head>
-    <body background="static/imgs/fundo.jpg" repeat="no-repeat" attachment="fixed" size="cover">
-        <img src="static/imgs/terraria.png" alt="terraria." height=125 width=100>
-        <a id="link_a" a href="outros.html">Mais</a><span id="link_a">┃</span>
-        <a id="link_a" a href="portifolio.html">Projetos</a><span id="link_a">┃</span>
-        <a id="link_a" a href="home.html">Home</a>
+    <body>
+        {% block nav %}
+        {% endblock %}
+        {% block corpo %}
         <div class="a1">
             <p>
                 <h2>Informações adcionais:</h2>
@@ -19,5 +19,6 @@
                 </ul>
             </p>
         </div>
+        {% endblock %}
     </body>
 </htmL>
