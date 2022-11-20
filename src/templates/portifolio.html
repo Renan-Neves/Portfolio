@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <htmL>
     {% extends "base.html" %}
+    {% block title %}
+    <title>Projetos</title>
+    {% endblock %}
     {% block home %}
         <div class="texto">
             <p>
                 <h2>Projetos:</h2>
-                <b>Projeto 1: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique lobortis risus, vitae 
-                ultrices magna varius nec. Integer blandit ex non elit fringilla, ac semper lectus ultrices. 
-                Nullam eu sodales neque, sed vestibulum mi. Quisque nisi felis, ultricies ut risus id, egestas 
-                malesuada massa. Proin dignissim imperdiet lacinia. Phasellus facilisis eros quam, eu convallis 
-                lectus blandit tincidunt. Aenean semper ligula ut ipsum eleifend aliquet. Suspendisse vitae 
-                vehicula risus, et facilisis libero. Fusce non tempus erat, facilisis posuere libero. Vestibulum 
-                vitae tempor dolor. Mauris non elit justo. Nunc viverra sapien non orci fermentum, a posuere nisi 
-                tincidunt. Nulla facilisi. Nam sed lobortis lectus, eget sodales lacus. Proin tempus vulputate 
-                turpis sit amet mollis. Maecenas in mauris ornare, tincidunt dui quis, bibendum ex.<br><br>
+                <img src="static/imgs/estude.png" alt="estude" class="projetos1">
+                <b>E-Stude: </b> E-Stude é uma biblioteca virtual com livros do ensino médio.<br> Seu propósito é 
+                armazenar esses livros para facilitar o estudo e a pesquisa.<br> (Esse projeto foi desenvolvido como o 
+                TCC do meu técnico)
+            </p>
+            </div>
+            <br>
+            <div class="texto">
+            <p>
+                <img src="static/imgs/guara.png" alt="estude" class="projetos2">
+                <b>Banco Guará: </b> O Banco Guará é sistema para um banco digital simples, que sejacapaz de efetuar <br>
+                transações típicas de um sistema bancário digitalizado.<br>
+                (Esse projeto foi desenvolvido como API do primeiro semestre do curso de desenvolvimento de sistemas)
             </p>
         </div>
     {% endblock %}

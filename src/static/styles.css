@@ -27,6 +27,8 @@ header{
 #foto{
     float: left;    
     margin: 0 3vw 0 0;
+    height: 33vh;
+    width: 13vw;
 }
 
 .a1{
@@ -39,4 +41,23 @@ header{
 .a2{
     text-decoration: none;
     color: black;
+}
+
+.logo{
+    height: 18vh;
+    width: 10vw;
+}
+
+.projetos1{
+    height: 20vh;
+    width: 9vw;
+    float: left;    
+    margin: 0 3vw 0 0;
+}
+
+.projetos2{
+    height: 18vh;
+    width: 9vw;
+    float: left;    
+    margin: 0 3vw 0 0;
 }
