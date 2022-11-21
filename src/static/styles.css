@@ -74,7 +74,7 @@ a{
     }
 
     .texto{
-        font-size: 3vw;
+        font-size: 4vw;
     }
     
     #foto{
@@ -91,7 +91,7 @@ a{
 
     .projetos2{
         height: 15vh;
-        width: 28%;
+        width: 30%;
         margin: 0 6vw 0 0;
     }
 }
