@@ -1,16 +1,31 @@
 <htmL>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../static/styles.css" />
         {% block title %}
         <title>base</title>
         {% endblock %}
-        <link rel="stylesheet" href="static/styles.css">
     </head>
     <body>
         <header>
-            <a href="/home"><img src="static/imgs/terraria.png" alt="terraria." height=125 wclassth=100></a>
-            <a class="a1" a href="/outros">Mais</a><span class="a1">┃</span>
-            <a class="a1" a href="/portifolio">Projetos</a><span class="a1">┃</span>
-            <a class="a1" a href="/home">Home</a>
+            <a href="/home"><img src="static/imgs/logo.png" alt="logo." class="logo"></a>
+            <nav class="navbar navbar-expand-sm bg-light justify-content-center" style="font-family: Comic Sans MS, Comic Sans, cursive;">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/portifolio">Projetos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/outros">Mais</a>
+                  </li>
+                </ul>
+              </nav>              
         </header>
         {% block mais %}
         {% endblock %}

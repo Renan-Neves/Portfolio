@@ -31,21 +31,19 @@ header{
     width: 13vw;
 }
 
-.a1{
+a{
     text-decoration: none;
+}
+
+.a1{
     color: white;
     float: right;
-    margin-top: 5%;
+    margin-top: 4%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .a2{
-    text-decoration: none;
     color: black;
-}
-
-.logo{
-    height: 18vh;
-    width: 10vw;
 }
 
 .projetos1{
@@ -60,4 +58,70 @@ header{
     width: 9vw;
     float: left;    
     margin: 0 3vw 0 0;
+}
+
+.logo{
+    height: 15vh;
+    width: 15vw;
+    margin-left: 42%;
+}
+
+@media only screen and (max-width: 500px) {
+    .logo{
+        height: 10%;
+        width: 33%;
+        margin-left: 32%;
+    }
+
+    .texto{
+        font-size: 3vw;
+    }
+    
+    #foto{
+        float: left;    
+        margin: 0 6vw 0 0;
+        height: 25%;
+        width: 40%;
+    }
+
+    .projetos1{
+        height: 25%;
+        width: 25%;
+    }
+
+    .projetos2{
+        height: 15vh;
+        width: 28%;
+        margin: 0 6vw 0 0;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo{
+        height: 10%;
+        width: 33%;
+        margin-left: 32%;
+    }
+
+    .texto{
+        font-size: 3vw;
+    }
+    
+    #foto{
+        float: left;    
+        margin: 0 6vw 0 0;
+        height: 25%;
+        width: 40%;
+    }
+
+    .projetos1{
+        height: 25%;
+        width: 25%;
+    }
+
+    .projetos2{
+        height: 15vh;
+        width: 28%;
+        margin: 0 6vw 0 0;
+    }
 }
